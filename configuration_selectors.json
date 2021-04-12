@@ -1,0 +1,22 @@
+{
+  "chrome_binary_path": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
+  "screenshot_dir": "C:\\users\\your user\\Desktop\\Automation_Screenshot\\",
+  "chrome_driver_path": "C:\\chrome Binary\\chromedriver.exe",
+  "excel_report_path": "C:\\users\\your user\\Desktop\\Automation_Screenshot\\Report.xlsx",
+  "html_report_path": "C:\\users\\your user\\Desktop\\Automation_Screenshot\\Report.html",
+  "site_url": "https://moat.com/",
+  "search_bar": "#adsearch-input",
+  "search_bar_main_element": "search-bar-dropdown-inner",
+  "search_bar_row_element": "search-bar-dropdown-row",
+  "search_word": ["Saturn","Saturday's Market","Krux"],
+  "search_bar_search_result_page": "search-bar-input",
+  "creative_count": ".creative-count > span",
+  "creative_container": "masonry-container",
+  "individual_creative": "er-creative-container",
+  "search_bar_result_result_page": "search-bar-dropdown-rows",
+  "load_more": "#er-app > div > div.full-screen-load-more-container.visible > a",
+  "random_brand": "random-brand",
+  "brand_header": ".header-info-container > .entity-label >span",
+  "close_share_window": "div.popup-header > span.close-button > img"
+}
+
