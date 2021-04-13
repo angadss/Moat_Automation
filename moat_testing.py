@@ -39,6 +39,7 @@ def setup_chrome_binary():
     test_case_creative_count(driver)
     test_case_random_brand_link(driver)
     test_case_share_brand_ad(driver)
+    create_report()
 
 def report_data_fn(test_case_name,result,error):
     global report_data
@@ -46,6 +47,8 @@ def report_data_fn(test_case_name,result,error):
     report_data['Result'].append(result)
     report_data['Error'].append(error)
 
+def create_report():
+    global report_data
     report_df=DataFrame(report_data)
     print (report_df)
     report_df.to_excel(data['excel_report_path'],index=False)
